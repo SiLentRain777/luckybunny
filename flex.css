@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:'Roboto','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+    background-image: url(finalbackground.png);
+    padding: 5px 0 10px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bunny-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.bunny-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: hsl(195, 85%, 55%);
+    min-width: 400px;
+    
+}
+
+#box1 {
+    background-color: transparent;
+}
+
+#box1 img {
+    width: 15em;
+    mix-blend-mode: lighten;
+}
+
+.tagline h3 {
+    font-weight: 500;
+    margin-top: -5px;
+    font-size: 20px;
+    color: hsl(199, 100%, 95%);
+    text-shadow: 1px 2px 3px hsl(249, 52%, 39%), -1px -2px 3px hsl(208, 47%, 46%);
+}
+
+/* ==================================================== */
+
+#box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 1px 2px 3px hsl(208, 47%, 46%), -1px -2px 3px hsl(208, 47%, 46%);
+    min-width: 40em;
+    
+}
+
+.reward-connect h2 {
+    color: hsl(204, 13%, 8%);
+    font-size: 1.7em;
+    font-weight: 400;
+    text-shadow: 1px 2px 3px hsl(204, 13%, 8%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.reward-connect .rewardpool {
+    padding: 10px;
+    background-color: hsl(195, 85%, 55%);
+    border: 2px solid hsl(199, 100%, 95%);
+    box-shadow: 1px 2px 3px hsl(199, 100%, 95%), -1px -2px 3px hsl(199, 100%, 95%);
+    border-radius: 1000px;
+    width: 300px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    color: hsl(199, 100%, 95%);
+}
+
+.connect-disconnect .con-disco {
+    padding: 10px;
+    background-color: hsl(207, 91%, 22%);
+    border: 2px solid hsl(207, 91%, 22%);
+    box-shadow: 1px 2px 3px  hsl(207, 91%, 22%);
+    color: hsl(199, 100%, 95%);
+    border-radius: 1000px;
+    font-weight: 600;
+}
+
+
+.wallet-balance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+}
+
+.wallet-balance h3 {
+    color: hsl(204, 13%, 8%);
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 5px;
+    
+}
+
+.wallet-balance p {
+    color: hsl(204, 13%, 8%);
+    font-size: 1em;
+    font-weight: 400;
+    color: hsl(199, 100%, 95%);
+    
+}
+
+/* ==================================================== */
+
+#box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: -5px;
+    box-shadow: 1px 2px 3px hsl(208, 47%, 46%), -1px -2px 3px hsl(208, 47%, 46%);
+    min-width: 40em;
+    
+}
+
+#box3 h2 {
+    font-size: 20px;
+    color: hsl(204, 13%, 8%);
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* ====================================== */
+
+#box3 .buy-bunnies1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: -10px;
+
+}
+
+.buy-bunnies1 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.buy-bunnies1 button {
+    padding: 10px;
+    font-size: 6px;
+    background-color: hsl(207, 91%, 22%);
+    border: 2px solid hsl(207, 91%, 22%);
+    box-shadow: 1px 2px 3px  hsl(207, 91%, 22%);
+    color: hsl(199, 100%, 95%);
+    border-radius: 1000px;
+    font-weight: 100;
+}
+
+.buy-bunnies1 span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ===========================================  */
+hr {
+    width:90%; height:8px; background-color:hsl(199, 100%, 95%); 
+    border:none;
+}
+
+.child {
+    width:90%; height:2px; background-color:hsl(199, 100%, 95%); 
+    border:none;
+}
+
+/* ===========================================  */
+
+
+#box3 .buy-bunnies2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+.buy-bunnies2 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.buy-bunnies2 button {
+    padding: 10px;
+    font-size: 6px;
+    background-color: hsl(207, 91%, 22%);
+    border: 2px solid hsl(207, 91%, 22%);
+    box-shadow: 1px 2px 3px  hsl(207, 91%, 22%);
+    color: hsl(199, 100%, 95%);
+    border-radius: 1000px;
+    font-weight: 100;
+}
+
+.buy-bunnies2 span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ===========================================  */
+
+
+#box3 .buy-bunnies3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+.buy-bunnies3 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.buy-bunnies3 button {
+    padding: 10px;
+    font-size: 6px;
+    background-color: hsl(207, 91%, 22%);
+    border: 2px solid hsl(207, 91%, 22%);
+    box-shadow: 1px 2px 3px  hsl(207, 91%, 22%);
+    color: hsl(199, 100%, 95%);
+    border-radius: 1000px;
+    font-weight: 100;
+}
+
+.buy-bunnies3 span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ===========================================  */
+
+#box3 .buy-bunnies4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+.buy-bunnies4 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.buy-bunnies4 button {
+    padding: 10px;
+    font-size: 6px;
+    background-color: hsl(207, 91%, 22%);
+    border: 2px solid hsl(207, 91%, 22%);
+    box-shadow: 1px 2px 3px  hsl(207, 91%, 22%);
+    color: hsl(199, 100%, 95%);
+    border-radius: 1000px;
+    font-weight: 100;
+}
+
+.buy-bunnies4 span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ===========================================  */
+
+#box3 .buy-bunnies5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+.buy-bunnies5 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.buy-bunnies5 button {
+    padding: 10px;
+    font-size: 6px;
+    background-color: hsl(207, 91%, 22%);
+    border: 2px solid hsl(207, 91%, 22%);
+    box-shadow: 1px 2px 3px  hsl(207, 91%, 22%);
+    color: hsl(199, 100%, 95%);
+    border-radius: 1000px;
+    font-weight: 100;
+}
+
+.buy-bunnies5 span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ===========================================  */
+
+#box3 .buy-bunnies6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+.buy-bunnies6 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.buy-bunnies6 button {
+    padding: 10px;
+    font-size: 6px;
+    background-color: hsl(207, 91%, 22%);
+    border: 2px solid hsl(207, 91%, 22%);
+    box-shadow: 1px 2px 3px  hsl(207, 91%, 22%);
+    color: hsl(199, 100%, 95%);
+    border-radius: 1000px;
+    font-weight: 100;
+}
+
+.buy-bunnies6 span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ===========================================  */
+
+#box3 .buy-bunnies7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+.buy-bunnies7 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.buy-bunnies7 button {
+    padding: 10px;
+    font-size: 6px;
+    background-color: hsl(207, 91%, 22%);
+    border: 2px solid hsl(207, 91%, 22%);
+    box-shadow: 1px 2px 3px  hsl(207, 91%, 22%);
+    color: hsl(199, 100%, 95%);
+    border-radius: 1000px;
+    font-weight: 100;
+}
+
+.buy-bunnies7 span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* ==================================================== */
+
+#box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: -5px;
+    box-shadow: 1px 2px 3px hsl(208, 47%, 46%), -1px -2px 3px hsl(208, 47%, 46%);
+    min-width: 40em;
+}
+
+#box4 h2 {
+    font-size: 20px;
+    color: hsl(204, 13%, 8%);
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================== */
+
+#box5 {
+    padding: 10px;
+    background: transparent;
+    border: 2px solid hsl(207, 91%, 22%);
+    box-shadow: 1px 2px 3px hsl(249, 52%, 39%), -1px -2px 3px hsl(208, 47%, 46%);
+    margin-bottom: 50px;
+    max-width: 481px;
+    border-radius: 10px;
+}
+
+.bunny-box-info details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+details .info {
+    font-size: 20px;
+    font-weight: 900;
+    color: hsl(204, 13%, 8%);
+}
+
+details p {
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    color: hsl(199, 100%, 95%);
+    text-align: justify;
+    text-shadow: 1px 2px 5px hsl(249, 52%, 39%), -1px -2px 5px hsl(208, 47%, 46%);
+    background-color: hsl(195, 85%, 55%);
+    border-radius: 10px;
+}
+
+summary::marker {
+    color: hsl(195, 85%, 55%);
+}
